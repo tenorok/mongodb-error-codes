@@ -1,6 +1,10 @@
 {
   "name": "mongodb-error-codes",
   "version": "5.2.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tenorok/mongodb-error-codes.git"
+  },
   "main": "dist/",
   "scripts": {
     "build": "npm run gen && npm run tsc",
