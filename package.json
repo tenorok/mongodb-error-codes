@@ -1,0 +1,18 @@
+{
+  "name": "mongodb-error-codes",
+  "version": "5.2.1",
+  "main": "dist/",
+  "scripts": {
+    "build": "npm run gen && npm run tsc",
+    "gen": "node generate.js",
+    "tsc": "tsc -d --outDir dist gen/index.ts"
+  },
+  "files": [
+    "dist/"
+  ],
+  "devDependencies": {
+    "js-yaml": "^4.1.0",
+    "node-fetch": "^2.6.7",
+    "typescript": "^4.5.5"
+  }
+}
