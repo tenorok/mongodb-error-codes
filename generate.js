@@ -29,7 +29,7 @@ function getCodes(codes) {
 }
 
 async function main() {
-    const { version } = require('./package.json');
+    const version = require('./package.json').version.split('-')[0];
     const response = await fetch(`https://raw.githubusercontent.com/mongodb/mongo/r${version}/src/mongo/base/error_codes.yml`);
     fs.writeFileSync(
         'gen/error_codes.yml',

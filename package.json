@@ -1,6 +1,6 @@
 {
   "name": "mongodb-error-codes",
-  "version": "5.2.1",
+  "version": "5.2.1-fix.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/tenorok/mongodb-error-codes.git"
